@@ -1,4 +1,4 @@
-# Ionic App Scripts
+# Ionic App Scripts for Micai RA
 
 Helper scripts to get [Ionic apps](http://ionicframework.com/) up and running quickly (minus the config overload).
 
