@@ -35,7 +35,7 @@ export function generateContext(context?: BuildContext): BuildContext {
   // If context is prod then the following flags must be set to true
   context.runAot = [
     context.runAot,
-    context.isProd || hasArg('--aot'),
+    hasArg('--aot'),
   ].find(val => typeof val === 'boolean');
 
   context.runMinifyJs = [
